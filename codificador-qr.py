@@ -5,8 +5,8 @@ texto_a_codificar = "Hola, me llamo marco" #texto a codificar
 qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_L,
-    box_size=15,
-    border=5,
+    box_size=25,
+    border=6,
 )
 qr.add_data(texto_a_codificar)
 qr.make(fit=True)
